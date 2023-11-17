@@ -1,0 +1,402 @@
+
+local players = game:GetService("Players")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "SnapDragon";
+    Text = "Hello!, " .. players.LocalPlayer.DisplayName;
+    Icon = "rbxthumb://type=AvatarHeadShot&id=" .. players.LocalPlayer.UserId .. "&w=180&h=180 true";
+    Duration = 7
+})
+wait(1.5)
+local players = game:GetService("Players")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "SnapDragon";
+    Text = "Thanks For Using Our Script!";
+    Icon = "https://www.roblox.com/asset/?id=15361583185";
+    Duration = 5
+})
+wait(3)
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("SnapDragon", "BloodTheme")
+local Tab = Window:NewTab("Combat Games")
+local Section = Tab:NewSection("Strongest Battlegrounds")
+Section:NewButton("Aimbot", "Nothing to see here", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+end)
+local Section = Tab:NewSection("Blade Ball")
+Section:NewButton("RedzHub", "Nothing to see here", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
+end)
+Section:NewButton("Bedol Hub", "Nothing to see here", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end)
+local Section = Tab:NewSection("Bedwars scripts")
+Section:NewButton("Vape Loader", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+local Section = Tab:NewSection("arsenal scripts")
+Section:NewButton("aimbot", "arsenal", function()
+    print("Clicked")
+local notifications = loadstring(game:HttpGet(("https://raw.githubusercontent.com/AbstractPoo/Main/main/Notifications.lua"),true))()
+notifications:notify{
+    Title = "Arsenal aimbot activated!",
+    Description = "",
+    Accept = {
+        Text = "Ok"
+    },
+    Length = 25
+}
+wait(3)
+function getplrsname() for i,v in pairs(game:GetChildren()) do if v.ClassName == "Players" then return v.Name end end end local players = getplrsname() local plr = game[players].LocalPlayer coroutine.resume(coroutine.create(function() while wait(1) do coroutine.resume(coroutine.create(function() for _,v in pairs(game[players]:GetPlayers()) do if v.Name ~= plr.Name and v.Character then v.Character.RightUpperLeg.CanCollide = false v.Character.RightUpperLeg.Transparency = 75 v.Character.RightUpperLeg.Size = Vector3.new(21,21,21) v.Character.LeftUpperLeg.CanCollide = false v.Character.LeftUpperLeg.Transparency = 75 v.Character.LeftUpperLeg.Size = Vector3.new(21,21,21) v.Character.HeadHB.CanCollide = false v.Character.HeadHB.Transparency = 75 v.Character.HeadHB.Size = Vector3.new(21,21,21) v.Character.HumanoidRootPart.CanCollide = false v.Character.HumanoidRootPart.Transparency = 75 v.Character.HumanoidRootPart.Size = Vector3.new(21,21,21) end end end)) end end))
+wait(1)
+function enter(player)
+	wait(2)
+	local plr = game.Workspace:FindFirstChild(player.Name)
+	if plr then
+		local char = plr
+		char.Humanoid.WalkSpeed = 29
+	end
+end
+game.Players.ChildAdded:connect(enter)
+wait(1)
+function enter(player)
+	wait(2)
+	local plr = game.Workspace:FindFirstChild(player.Name)
+	if plr then
+		local char = plr
+		char.Humanoid.JumpPower = 39
+	end
+end
+game.Players.ChildAdded:connect(enter)
+end)
+local Section = Tab:NewSection("muscle Legends Scripts")
+Section:NewButton("Muscle Legend V5", "Muscle Legend", function()
+    print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Muscle-Legends'),true))()
+end)
+Section:NewButton("Muscle Legend ", "Muscle Legend", function()
+    print("Clicked")
+    local players = game:GetService("Players")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "SnapDragon";
+    Text = "Script Executed!";
+    Icon = "https://www.roblox.com/asset/?id=15361583185";
+    Duration = 2
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
+end)
+local Section = Tab:NewSection("Ninja Legends Scripts")
+Section:NewButton("Proxima Hub", "Ninja legends", function()
+    print("Clicked")
+    local players = game:GetService("Players")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "SnapDragon";
+    Text = "Script Executed!";
+    Icon = "https://www.roblox.com/asset/?id=15361583185";
+    Duration = 2
+})
+loadstring(game:HttpGet(" https://raw.githubusercontent.com/Tri... "))()
+end)
+local Section = Tab:NewSection("Legends of speed scripts ")
+Section:NewButton("Legends of speed Auto farm hoops", " legends of speed", function()
+    print("Clicked")
+local children = workspace.Hoops:GetChildren()
+for i, child in ipairs(children) do
+    if child.Name == "Hoop" then 
+child.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    end    
+end
+end)
+Section:NewButton("Legends of speed hub", "speed legends", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://pastebin.com/raw/1iMHrZ50", true))()
+end)
+local Section = Tab:NewSection("Blox fruits")
+Section:NewButton("Zamex Hub", "BloxFruits", function()
+    print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexMobile/main/Zamex_Mobile.lua'))()
+end)
+Section:NewButton("Boe Hub", "BloxFruits", function()
+    print("Clicked")
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\66\101\115\116\120\101\109\99\104\117\97\47\97\103\97\103\97\103\97\113\47\109\97\105\110\47\85\105\47\104\104\104\46\108\117\97\34\41\41\40\41\10")()
+end)
+Section:NewButton("MTriet Hub", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+end)
+Section:NewButton("Hoho Hub", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+local Section = Tab:NewSection("Da Hood")
+Section:NewButton("NukerMode Gui", "nuke", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+
+end)
+Section:NewToggle("Silent aim", "aim", function(state)
+    if state then
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "thatsnotmatt.cc loaded";
+Title = "made by thatsnotmatt#2602";
+Duration = 10;
+});
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RFS-cmd/-/main/first"))()
+
+Aiming.TargetPart = {"Head"}
+Aiming.FOV = 150
+Aiming.FOVSides = 250
+Aiming.HitChance = 100
+Aiming.ShowFOV = true
+getgenv().AutoPrediction = true
+getgenv().Prediction = 0.157
+-- auto prediction highly recommended...
+if getgenv().AutoPrediction == true then
+function h()
+        while true do wait()
+local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+        local split = string.split(pingvalue,'(')
+        local ping = tonumber(split[1])
+        if ping > 200 and ping < 300 then 
+            getgenv().Predictio = 0.18742
+            elseif ping > 180 and ping < 195 then 
+            getgenv().Predictio = 0.16779123
+          elseif ping > 140 and ping < 180 then 
+            getgenv().Predictio = 0.16
+        elseif ping > 110 and ping < 140 then 
+            getgenv().Predictio = 0.15934
+        elseif ping < 105 then
+            getgenv().Predictio = 0.138
+        elseif ping < 90 then
+            getgenv().Predictio = 0.136
+        elseif ping < 80 then
+            getgenv().Predictio = 0.134
+        elseif ping < 70 then
+            getgenv().Predictio = 0.131
+        elseif ping < 60 then
+            getgenv().Predictio = 0.1229
+        elseif ping < 50 then
+            getgenv().Predictio = 0.1225
+        elseif ping < 40 then
+            getgenv().Predictio = 0.1256
+        end
+getgenv().Prediction = getgenv().Predictio
+
+end
+end
+
+spawn(h)
+end
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+local Tab = Window:NewTab("Tycoon")
+local Section = Tab:NewSection("My Restaurant ")
+Section:NewButton("Auto farm", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://rawscripts.net/raw/My-Restaurant!-Fast-Autofarm-4610"))
+end)
+local Section = Tab:NewSection("My Restaurant 2")
+Section:NewButton("ZeytreZz Hub", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZH2Se2Ns'))()
+end)
+local Section = Tab:NewSection("Ninja Tycoon")
+Section:NewButton("Ninja  tycoon", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()
+end)
+
+local Tab = Window:NewTab("Settings/options")
+local Section = Tab:NewSection("Tools")
+Section:NewButton("InfiniteYield", "ButtonInfo", function()
+    print("Clicked")
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()   
+end)
+Section:NewButton("BTools", "BTools", function()
+    print("Clicked")
+Instance.new("HopperBin", game.Players.LocalPlayer.Backpack).BinType = 4
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 20
+end)
+Section:NewButton("Click TP Tool", "TP TOOL", function()
+    print("Clicked")
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Equip to Click TP"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+Section:NewButton("Anti-Fling", "ButtonInfo", function()
+    print("Clicked")
+ -- // Constants \\ --
+-- [ Services ] --
+local Services = setmetatable({}, {__index = function(Self, Index)
+local NewService = game.GetService(game, Index)
+if NewService then
+Self[Index] = NewService
+end
+return NewService
+end})
+
+-- [ LocalPlayer ] --
+local LocalPlayer = Services.Players.LocalPlayer
+
+-- // Functions \\ --
+local function PlayerAdded(Player)
+   local Detected = false
+   local Character;
+   local PrimaryPart;
+
+   local function CharacterAdded(NewCharacter)
+       Character = NewCharacter
+       repeat
+           wait()
+           PrimaryPart = NewCharacter:FindFirstChild("HumanoidRootPart")
+       until PrimaryPart
+       Detected = false
+   end
+
+   CharacterAdded(Player.Character or Player.CharacterAdded:Wait())
+   Player.CharacterAdded:Connect(CharacterAdded)
+   Services.RunService.Heartbeat:Connect(function()
+       if (Character and Character:IsDescendantOf(workspace)) and (PrimaryPart and PrimaryPart:IsDescendantOf(Character)) then
+           if PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 or PrimaryPart.AssemblyLinearVelocity.Magnitude > 100 then
+               if Detected == false then
+                   game.StarterGui:SetCore("ChatMakeSystemMessage", {
+                       Text = "Fling Exploit detected, Player: " .. tostring(Player);
+                       Color = Color3.fromRGB(255, 200, 0);
+                   })
+               end
+               Detected = true
+               for i,v in ipairs(Character:GetDescendants()) do
+                   if v:IsA("BasePart") then
+                       v.CanCollide = false
+                       v.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+                       v.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+                       v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0)
+                   end
+               end
+               PrimaryPart.CanCollide = false
+               PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+               PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+               PrimaryPart.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0)
+           end
+       end
+   end)
+end
+
+-- // Event Listeners \\ --
+for i,v in ipairs(Services.Players:GetPlayers()) do
+   if v ~= LocalPlayer then
+       PlayerAdded(v)
+   end
+end
+Services.Players.PlayerAdded:Connect(PlayerAdded)
+
+local LastPosition = nil
+Services.RunService.Heartbeat:Connect(function()
+   pcall(function()
+       local PrimaryPart = LocalPlayer.Character.PrimaryPart
+       if PrimaryPart.AssemblyLinearVelocity.Magnitude > 250 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 250 then
+           PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+           PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+           PrimaryPart.CFrame = LastPosition
+
+           game.StarterGui:SetCore("ChatMakeSystemMessage", {
+               Text = "You were flung. Neutralizing velocity.";
+               Color = Color3.fromRGB(255, 0, 0);
+           })
+       elseif PrimaryPart.AssemblyLinearVelocity.Magnitude < 50 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 then
+           LastPosition = PrimaryPart.CFrame
+       end
+   end)
+end)
+end)
+Section:NewButton("FE Fling Tool", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
+end)
+local Section = Tab:NewSection("PLAYER")
+Section:NewTextBox("Set Walkspeed","walkspeed setter", function(txt) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+end)
+Section:NewTextBox("Set Jumppower","Increases JP", function(txt)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+end)
+Section:NewTextBox("Set FOV","Default 70", function(txt) game.Workspace.CurrentCamera.FieldOfView = txt
+end)
+Section:NewButton("FPS COUNTER", "OK", function()
+    print("Clicked")
+loadstring(game:HttpGet(("https://pastebin.com/raw/emR7pNAU"), true))()
+end)
+Section:NewButton("TP to Lower server", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet(("https://cdn.discordapp.com/attachments/922823751127683082/1072867174768726026/Protected.lua"), true))()
+end)
+Section:NewButton("God Mode (Works any games)", "No one can kill you", function()
+    print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cesare0328/my-scripts/main/joke%20anticheat.lua'),true))()
+end)
+Section:NewButton("FLY GUI V3", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet(("https://cdn.discordapp.com/attachments/922823751127683082/1072859908116058162/Protected.lua"), true))()
+end)
+
+Section:NewButton("keyboard", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+local Section = Tab:NewSection("HitBoxes")
+Section:NewButton("Hitbox <Works any games!!>", "easy win", function()
+    print("Clicked")
+_G.HeadSize = 30
+_G.Disabled = true
+
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.7
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)
+end)
+Section:NewButton("Invisible Hitbox <Works any games!!>", "easy win", function()
+    print("Clicked")
+_G.HeadSize = 30
+_G.Disabled = true
+
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.7
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)
+end)
